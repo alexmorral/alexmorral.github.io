@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -173,4 +173,9 @@ a {
 
 a:hover, a:focus, a:active {
   color: #0e2328;
+}
+
+.appstore-icon {
+  height: 100px;
+  border-radius: 22.5%;
 }
