@@ -31,6 +31,15 @@
     gtag('config', 'UA-7696663-7');
   </script>
 
+  <script>
+    function trackGAClick(name) {
+      gtag('Link Click', name, {
+          'event_label': 'Click',
+          'event_category': 'Link Click'
+      });
+    }
+  </script>
+
 </head>
 
 <body id="page-top">
@@ -77,13 +86,13 @@
           <a href="mailto:alexmorral@gmail.com">alexmorral@gmail.com</a>
         </div>
         <div class="social-icons">
-          <a href="//www.linkedin.com/in/alexmorral/">
+          <a onclick="trackGAClick('linkedin');" href="//www.linkedin.com/in/alexmorral/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="//www.github.com/alexmorral">
+          <a onclick="trackGAClick('github');" href="//www.github.com/alexmorral">
             <i class="fab fa-github"></i>
           </a>
-          <a href="//www.twitter.com/ryblade">
+          <a onclick="trackGAClick('twitter');" href="//www.twitter.com/ryblade">
             <i class="fab fa-twitter"></i>
           </a>
         </div>
@@ -160,8 +169,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Dreamy - Your dream journal</h3>
-            <h4><a href="https://dreamy.app">dreamy.app</a></h4>
+            <h3 class="mb-0"><a onclick="trackGAClick('dreamy');" href="https://dreamy.app">Dreamy - Your dream journal</a></h3>
             <p>Dreamy is a dream diary app to keep all your dreams organized. It lets you write down or record your dreams, and attach some important information to them.</p>
           </div>
           <div class="resume-date text-md-right">
@@ -173,8 +181,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Amigo Invisible 22 - Gift exchange</h3>
-            <h4><a href="https://amigoinvisible22.com">amigoinvisible22.com</a></h4>
+            <h3 class="mb-0"><a onclick="trackGAClick('amigo-invisible-22');" href="https://amigoinvisible22.com">Amigo Invisible 22 - Gift exchange</a></h3>
             <p>Secret Santa 22 is an online gift exchange generator app that lets you draw names fast and free.</p>
           </div>
           <div class="resume-date text-md-right">
@@ -184,8 +191,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Stickery - the sticker maker <span class="subheading text-secondary">(SOLD)</span></h3>
-            <h4><a href="https://stickery.app">stickery.app</a></h4>
+            <h3 class="mb-0"><a onclick="trackGAClick('stickery');" href="https://stickery.app">Stickery - the sticker maker</a> <span class="subheading text-secondary">(SOLD)</span></h3>
             <p>Stickery is a sticker maker app that lets you create and customize your own stickers. You are able to share the stickers you created with your friends. You can also download really cool stickers from artists.</p>
           </div>
           <div class="resume-date text-md-right">
@@ -195,8 +201,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Recorda - Journal And Reminders</h3>
-            <h4><a href="https://recorda.app">recorda.app</a></h4>
+            <h3 class="mb-0"><a onclick="trackGAClick('recorda');" href="https://recorda.app">Recorda - Journal And Reminders</a></h3>
             <p>Recorda reinvents and merges your personal diary, your to-do list, your notes and reminders in a single app. It allows you to quickly, easily and intuitively write down what comes to your mind.</p>
           </div>
           <div class="resume-date text-md-right">
